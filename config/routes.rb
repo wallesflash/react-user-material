@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/user/list', to: 'user#list'
   post '/user/create', to: 'user#create'
   get '/user/create', to: 'user#create'
+  # get '/user/create', to: 'user#create'
 
   # resource :user, defaults: {format: :json}
 

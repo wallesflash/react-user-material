@@ -85,9 +85,11 @@ export default class User_list extends React.Component {
                 </form>
                 <ul>
                     { this.state.users.map(user =>
-                        <li key={user.id}>
-                            { user.name + " " + user.surname}
-                        </li>
+                        
+                            <li key={user.id}>
+                                { user.name + " " + user.surname + " " + user.date_of_birth}
+                            </li>
+                        
                     )}
                 </ul>
             </div>
